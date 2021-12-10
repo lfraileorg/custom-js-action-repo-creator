@@ -1,0 +1,16 @@
+name: 'Repository creator'
+description: 'Creates a new repository'
+inputs:
+  admin_token:
+    description: The admin token with permissions to create repositories
+    required: true
+  repository_name:
+    description: The name of the repository to create
+    required: true
+outputs:
+  repository_name:
+    description: The name of the repository
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
