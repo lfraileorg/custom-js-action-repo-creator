@@ -18,7 +18,7 @@ async function run() {
     let org = context.payload.organization.login;
 
     // Create org repo
-    core.debug(`Creating capability repo: ${capabilityRepoName}...`);
+    core.debug(`[lfraile] Creating capability repo: ${capabilityRepoName}...`);
 
     const { data: capabilityRepositoryObj } = await adminOctokit.repos.createInOrg({
       org: org,
