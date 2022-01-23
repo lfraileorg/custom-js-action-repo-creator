@@ -25,10 +25,7 @@ async function run() {
       name: capabilityRepoName,
       description: `Capability repository for ${capabilityRepoName}`,
       auto_init: false,
-      visibility: 'internal',
-      mediaType: {
-        previews: ['nebula-preview']
-      }
+      visibility: 'private'
     });
 
     console.log(`Created capability repo: ${capabilityRepositoryObj.name}`);
