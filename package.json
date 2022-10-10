@@ -32,6 +32,6 @@
     "@zeit/ncc": "^0.20.5",
     "eslint": "^6.3.0",
     "jest": "^24.9.0",
-    "jQuery.ui.dialof": "1.11.4"
+    "jQuery.ui.dialog": "1.11.4"
   }
 }
